@@ -23,7 +23,7 @@ function App() {
       items: "leetcode"
     }
   ]);
-
+/*add function*/
   const [newitem,setNewitem] = useState('')
   const additem = (item) => {
     const id = items.length ?items[items.length -1].id+1:1; 
